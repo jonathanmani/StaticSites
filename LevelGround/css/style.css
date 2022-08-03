@@ -1,0 +1,277 @@
+/* Box Model Hack */
+* {
+     box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     font-family: 'Roboto', sans-serif;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+     padding: 1rem 2rem;
+     width: 100%;
+     height: 4rem;
+     background-color: #66768A;
+}
+
+nav ul,
+nav img,
+nav button{
+     float: left;
+     width: 47.33%;
+}
+
+ul{
+     padding: 0;
+     
+}
+
+.header-list {
+     float: left;
+     width: 20%;
+     list-style: none;
+     line-height: 0.1;
+     text-transform: uppercase;
+}
+
+a{
+     text-decoration: none;
+     color: white;
+}
+
+.logo{
+     height: 2rem;
+     width: auto;
+     
+}
+
+.donateBtn-div{
+     height: 2rem;
+     width: 30.33%;
+     float: right;
+}
+
+.donate-btn{
+     width: 20%;
+     float: right;
+     text-transform: uppercase;
+     padding: 0.5rem;
+     border: none;
+     border-radius: 0.3rem;
+     background: white;
+     color: #66768A;
+}
+.intro{
+     display: inline-block;
+     width: 100%;
+     padding: 4rem 0;
+     text-align: center;
+     color:white;
+     background-color: #66768A;
+}
+
+.headline{
+     text-transform: uppercase;
+     font-size: 3rem;
+}
+
+.subline{
+     width: 70%;
+     margin: 0 auto 5rem auto;
+     font-weight: 100;
+}
+
+.video{
+     font-size: 1.5rem;
+     font-weight: 100;
+}
+
+.why{
+     width: 100%;
+     padding: 7rem 0;
+     text-align: center;
+}
+
+.subheading{
+     text-transform: uppercase;
+     font-size: 2rem;
+}
+
+.why-subline{
+     width: 50%;
+     margin: 0 auto 5rem auto;
+     font-weight: 100;
+}
+
+.classes{
+     width: 100%;
+     background-color: #DBDFE2;
+     padding: 7rem 4rem;
+     overflow: auto;
+}
+
+.box{
+     width: 16rem;
+     height: 10rem;
+     background-color: #66768A;
+     margin: 0 auto;
+}
+
+.visitGym,
+.visitYou {
+     width: 45%;
+     float: left;
+     text-align: center;
+     font-weight: 100;
+     margin: 0 1rem;
+}
+
+.title{
+     text-transform: uppercase;
+}
+
+.button{
+     text-transform: uppercase;
+     border: 1px solid black;
+     margin: 0 14rem;
+     padding: 1rem;
+     font-weight: 100;
+}
+
+.volunteer{
+     width: 10%;
+     margin: 0 auto;
+}
+
+.extra{
+     margin-bottom: 2rem;
+}
+
+
+footer {
+     height: 30vh;
+     background-color:#161F2A;
+}
+
+.media,
+.address {
+     float: left;
+}
+
+.media{
+     padding: 0 0 0 2rem;
+     width: 80%;
+     height: 20vh;
+}
+
+.address{
+     width: 20%;
+     height: 20vh;
+     color: white;
+     padding: 2rem 0 0 0;
+}
+
+address{
+     font-weight: 100;
+     margin-top: 0.5rem;
+     font-style: none;
+}
+
+address a{
+     font-weight: 400;
+}
+
+.footer-title{
+     color: #617285;
+     margin-top: 2rem;
+     margin-bottom: 0;
+     text-transform: uppercase;
+     clear: both;
+}
+
+.address h5 {
+     margin-top: 0;
+     margin-bottom: 0;
+     text-transform: uppercase;
+}
+
+.sm-nav{
+     display: block;
+}
+
+.site-map,
+.contribute{
+     margin-top: 0.2rem ;
+}
+
+.socialMedia-list{
+     float: left;
+     width: 9%;
+     list-style: none;
+}
+
+.footer-list{
+     float: left;
+     list-style-type: none;
+     font-size: 0.9rem;
+}
+
+.footer-list a{
+     margin: 0 1rem 0 0;
+}
+
+.facebook,
+.twitter,
+.mail{
+     width: 2rem;
+     height: 2rem;
+}
+
+.navigation ul{
+     margin: 0;
+}
+
+.bottom{
+     padding-top: 1rem;
+     clear: both;
+     color: white; 
+     border-top: white solid;
+     margin: 0 2rem 0 2rem;
+}
+
+span{
+     vertical-align: middle;
+}
+
+.bottom .logo{
+     float: right;
+}
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
